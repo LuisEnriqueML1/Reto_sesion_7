@@ -1,7 +1,4 @@
-install.packages("DBI")
-install.packages("RMySQL")
-install.packages("dplyr")
-install.packages("ggplot2")
+
 library(dplyr)
 library(DBI)
 library(RMySQL)
