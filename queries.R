@@ -4,6 +4,7 @@ library(DBI)
 library(RMySQL)
 library(ggplot2)
 
+
 MyDataBase <- dbConnect(
   drv = RMySQL::MySQL(),
   dbname = "shinydemo",
